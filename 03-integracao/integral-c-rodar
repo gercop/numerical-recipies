@@ -1,0 +1,3 @@
+gcc -DLINUX -c integral-c-geral.c -o integral-c-geral.o ;
+gcc -Df1 -c integral-c.c -o integral-c.o ;
+gcc -lm integral-c.o integral-c-geral.o -o prg ;

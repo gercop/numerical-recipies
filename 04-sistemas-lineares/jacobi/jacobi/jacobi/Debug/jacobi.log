@@ -1,0 +1,29 @@
+﻿Build started 11/06/2013 14:43:59.
+     1>Project "D:\temp\codes\cc++\numerical\jacobi\jacobi\jacobi\jacobi.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\jacobi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\jacobi.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt jacobi.cpp
+         jacobi.cpp
+     1>d:\temp\codes\cc++\numerical\jacobi\jacobi\jacobi\jacobi.cpp(24): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\temp\codes\cc++\numerical\jacobi\jacobi\Debug\jacobi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\jacobi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\temp\codes\cc++\numerical\jacobi\jacobi\Debug\jacobi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\temp\codes\cc++\numerical\jacobi\jacobi\Debug\jacobi.lib" /MACHINE:X86 Debug\jacobi.exe.embed.manifest.res
+         Debug\jacobi.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\jacobi.exe.embed.manifest" /manifest Debug\jacobi.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         jacobi.vcxproj -> D:\temp\codes\cc++\numerical\jacobi\jacobi\Debug\jacobi.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\jacobi.unsuccessfulbuild".
+         Touching "Debug\jacobi.lastbuildstate".
+     1>Done Building Project "D:\temp\codes\cc++\numerical\jacobi\jacobi\jacobi\jacobi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
